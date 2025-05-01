@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 60px;
+    font-weight: 750;
+}
+.calcu {
+    background-color: #ffffff;
+    width: 40%;
+    padding: 30px;
+    margin: 65px 0px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 0px 15px 0px;
+    input{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    button{
+        width: 30%;
+        padding: 10px;
+        background-color: #2863a7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-bottom: 30px;
+        margin-top: 20PX;
+        display: block;          
+        margin: 20px auto; 
+    }
+    button:hover{
+        transform: scale(1.01);
+        background-color: #1e4f8b;
+    }
+}
+.input-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px; 
+    margin-bottom: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#btnNuevo {
+    display: block;
+    margin: 20px auto;
+    margin-top: 40px;
+}
+#resultado p {
+    font-size: 1.5rem; 
+    color: #333;
+    text-align: center;
+}
+#imagenResultado {
+    display: block;          
+    margin: 20px auto;   
+    max-width: 220px;      
+    width: 100%;        
+    height: auto;          
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
